@@ -19,7 +19,7 @@
         shoes: data.results,
     }
     const html = template(context);
-    document.querySelector('.card').innerHTML = html;
+    document.querySelector('.container').innerHTML = html;
 
 
 
